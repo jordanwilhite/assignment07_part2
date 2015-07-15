@@ -45,12 +45,10 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
-    var consonant (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z);
-    var double (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z);
-    var inBetween (o);
+
 
   function translate(phrase){
-    return phrase + double
+
   };
 };
 
@@ -82,17 +80,30 @@ function reverse("knowledge"){
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
 
-function findLongestWord(words){
-    
-}
+function findLongestWord([dog, cat, hippo]){
+  if ([0].length > [1].length && [0].length > [2].length);{
+    return [0];
+  };
+    else if ([1].length > [2].length && [1] > [0].length) {
+    return[1];
+    };
+    else if ([2].length > [0].length && [2].length > [1].length) {
+    return [2]
+    };
+};
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
-function filterLongWords(words, i){
-    //...
-}
+function filterLongWords([steve, pirate, dodgeball. spaceship, pluto] i){
+    if [steve, pirate, dodgeball. spaceship, pluto] > i;
+    return [steve, pirate, dodgeball. spaceship, pluto];
+  };
+  else {
+    return i;
+  };
+};
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
