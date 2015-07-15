@@ -88,14 +88,16 @@ function reverse(phrase){
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
 
-function findLongestWord([dog, cat, hippo]){
-  if ([0].length > [1].length && [0].length > [2].length){
-    return [0];
-  } else if ([1].length > [2].length && [1] > [0].length) {
-    return[1];
-    } else if ([2].length > [0].length && [2].length > [1].length) {
-    return [2];
-    };
+function findLongestWord(words){
+ var length = 0;
+ var longest;
+ for (var i = 0; i < words.length; i++) {
+   if(words[i].length > length {
+      length = words[i].length;
+      longest = words[i];
+    }
+ }
+ return longest
 };
 
 // ---------------------
@@ -116,5 +118,13 @@ function filterLongWords([steve, pirate, dodgeball. spaceship, pluto] [i]){
 // ---------------------
 
 function charFreq("abbabcbdbabdbdbabababcbcbab"){
+ var list ={};
+ var length = string.length;
+ for (var i = 0; i < length; i++){
+   if (string.charAt(i) in list)
+   list [string.charAt(i)] = 1;
+ }
+ return list;
+
 
 };
